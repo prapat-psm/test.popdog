@@ -1,0 +1,59 @@
+.container {
+  padding: 0 4rem;
+}
+
+.main {
+  height: 100%;
+  min-height: 100vh;
+  padding: 1rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main .intro {
+  flex: 1;
+}
+
+.main .clifford {
+  flex: 0 1 auto;
+  text-align: center;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo img {
+  display: block;
+}
+
+.counter {
+  color: #fff;
+  font-size: 4rem;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  background-image: url('/heart.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+}
+
+/* .logo {
+  height: 1em;
+  margin-left: 0.5rem;
+} */
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
